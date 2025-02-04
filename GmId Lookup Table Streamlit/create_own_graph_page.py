@@ -1,13 +1,18 @@
 import streamlit as st
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def create_own_graph_page():
+def create_own_graph_page(saved_data_option):
     st.title("Create Your Own Graph")
     st.markdown("###### Implemented by Eva Deltor")
 
-    
+    # Load the selected saved data
+    saved_data = pd.read_csv(saved_data_option)
+
+    # Convert saved_data to a suitable format for plotting
+    saved_data_values = saved_data.values.flatten()
 
     # Create two columns with wider column width for the graph
     col1, col2 = st.columns([1, 2])
@@ -51,4 +56,15 @@ def create_own_graph_page():
         if y_log_scale:
             ax.set_yscale('log')
 
+        st.pyplot(fig)
+
+    # Plot the saved data
+    if saved_data is not None:
+        st.markdown("<u><strong>Saved Data Plot</strong></u>", unsafe_allow_html=True)
+        fig, ax = plt.subplots()
+        ax.plot(saved_data_values, label=f"Saved Data: {saved_data_option}")
+        ax.set_xlabel("Index")
+        ax.set_ylabel("Value")
+        ax.legend(loc='upper left', bbox_to_anchor=(1, 1))
+        ax.grid(True)
         st.pyplot(fig)
