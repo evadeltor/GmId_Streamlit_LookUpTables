@@ -26,6 +26,7 @@ Once the simulation has finished we need to go to Plot - Main Plot. On the windo
 and select the psf file. From there a Brower window will open on the left, we must select the dcOpInfo and export the data in a table. Once in the table, we can export it in any format of our convenience
 
 ![image](https://github.com/user-attachments/assets/8697ee4f-a0d8-46c6-bd30-ba1fe03c27fa)
+![image](https://github.com/user-attachments/assets/569502a1-aedc-4d90-b84c-609b5a68f3a0)
 
 <strong style="color:red;">!</strong> One may question why the width of the transistor hasn't been considered as a sweep variable, instead a fixed value of 1 um has been used. Since the majority of analog CMOS circuits take advantage of wide transistors, proportionality holds as far as W is concerned [[1]](https://ieeexplore.ieee.org/document/10122491/)
 
