@@ -15,7 +15,8 @@ Setting up these tables is required just once for a specific technology, the goa
 
 ## How to use it?
 The first step is to obtain the lookup tables. In my particular case, I do use Cadence Virtuoso for this purpose. We need to sweep four variables VGS, VDS, VSB, and L. After that, we need to save the following outputs gm, gds, cgs, ID, vgs, vov.
-! The only limitation is that when doing the sweep we need to do it in this order:
+<strong style="color:red;">!</strong>
+ The only limitation is that when doing the sweep we need to do it in this order:
 ![image](https://github.com/user-attachments/assets/65add828-ce04-4ac8-83fa-ee865d4954e4)
 ![image](https://github.com/user-attachments/assets/bb28bef6-44fe-451a-ad3d-12df5f83bfad)
 
@@ -26,7 +27,7 @@ and select the psf file. From there a Brower window will open on the left, we mu
 
 ![image](https://github.com/user-attachments/assets/8697ee4f-a0d8-46c6-bd30-ba1fe03c27fa)
 
-! One may question why the width of the transistor hasn't been considered as a sweep variable, instead a fixed value of 1 um has been used. Since the majority of analog CMOS circuits take advantage of wide transistors, proportionality holds as far as W is concerned. [this article]([https://ieeexplore.ieee.org/document/10122491/])
+<strong style="color:red;">!</strong> One may question why the width of the transistor hasn't been considered as a sweep variable, instead a fixed value of 1 um has been used. Since the majority of analog CMOS circuits take advantage of wide transistors, proportionality holds as far as W is concerned. [1]([https://ieeexplore.ieee.org/document/10122491/])
 ## Execute the code
 What we need to do is to run the main.py from the terminal with the following command:
 streamlit run main.py
