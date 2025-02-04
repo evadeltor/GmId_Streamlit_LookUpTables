@@ -11,8 +11,7 @@ Setting up these tables is required just once for a specific technology, the goa
 - [Ratio](#ratio)
 - [Create your own graph](#create-your-own-graph)
 - [Cross Lookup](#cross-lookup)
-- [Contributing](#contributing)
-- [License](#license)
+- [References and Guidelines](#references-and-guidelines)
 
 ## How to use it?
 The first step is to obtain the lookup tables. In my particular case, I do use Cadence Virtuoso for this purpose. We need to sweep four variables VGS, VDS, VSB, and L. After that, we need to save the following outputs gm, gds, cgs, ID, vgs, vov.
@@ -63,11 +62,12 @@ A second type of parameter consists of ratios between the parameters presented b
 
 
 ## Create your graph
-The goal of this page is to create any graph that the designer requires instead of the limited options that provide the rest of the design. Moreover, what we can do is overlap multiple graphs as I will show 
+The goal of this page is to create any graph that the designer requires instead of the limited options that provide the rest of the design. Moreover, what we can do is overlap multiple graphs as I will show in the following example extracted from [1]; this allow us to design shortly.
 ![image](https://github.com/user-attachments/assets/4280c985-d814-4110-8eb2-a711703c20d4)
 
 ## Cross Lookup
-
+Finally, the third mode is to have a plot between ratios, an example would be GM_ID and JD.
 ![image](https://github.com/user-attachments/assets/ce26cd1a-90ae-4ef5-aea3-d7ac2fd975d6)
 
-
+## References and Guidelines
+To expand the knowledge on how to apply the Gm/Id methology it is recommeneded to go to Systematic Design of Analog CMOS Circuits: Using Pre-Computed Lookup Tables. It is also recommended the course of Dr.Hesham on gm/id methodology.
