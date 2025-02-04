@@ -1,5 +1,6 @@
 # GmId Streamlit Lookup Tables
 The app is user-friendly and makes it easy to handle and analyze data with a clear and organized interface. Traditional hand calculations use basic transistor models like the quadratic one, but these models don't consider second-order effects. This can cause the results to differ quite a bit from what you expect. It usually takes several tries to get the final result. The Gm/Id methodology aims to simplify the design process by using Lookup Tables (LUTs) instead of MOSFET models. Each of the lookup tables defines a parameter, which is affected by the bias, geometry, and second-order effects that are modeled by the simulator.
+The basic EKV model does not describe neither these second-order effects, and doing so would increase the complexity of the model which substantially differs from the purpose of simplifying conceptually the design.
 Setting up these tables is required just once for a specific technology, the goal of this GitHub is the generation of such tables and the modes of operation of analysis. It is out of the scope of this project to explain how this will be used in a design, books on the Gm/Id methodology should be used. 
 
 ## Table of Contents
