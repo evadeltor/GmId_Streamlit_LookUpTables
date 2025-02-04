@@ -63,12 +63,17 @@ A second type of parameter consists of ratios between the parameters presented b
 
 
 ## Create your graph
-The goal of this page is to create any graph that the designer requires instead of the limited options that provide the rest of the design. Moreover, what we can do is overlap multiple graphs as I will show in the following example extracted from [1]; this allow us to design shortly.
+The goal of this page is to enable the creation of any graph that the designer requires, beyond the limited options provided by the rest of the design. Additionally, it allows for overlapping multiple graphs, as illustrated in the following example extracted from [1]. This functionality enables more efficient and flexible design processes.
 ![image](https://github.com/user-attachments/assets/4280c985-d814-4110-8eb2-a711703c20d4)
 
 ## Cross Lookup
 Finally, the third mode is to have a plot between ratios, an example would be GM_ID and JD.
 ![image](https://github.com/user-attachments/assets/ce26cd1a-90ae-4ef5-aea3-d7ac2fd975d6)
 
+## Other functionalities
+On the sidebar, there are multiple sections. You can select the tables you want to work with. For a proper design, you should include at least both PMOS and NMOS transistors. However, depending on the technology, multiple kinds of transistors may exist (e.g., low noise, low Vt, etc.). Additionally, you can navigate between different pages. If you are visualizing data on a plot, you have the option to save that data to a file and later import it in the "Create Your Graph" page.
+![image](https://github.com/user-attachments/assets/ca46c571-a78c-4a51-a283-2e09a40ff7d1)
+
+
 ## References and Guidelines
-To expand the knowledge on how to apply the Gm/Id methology it is recommeneded to go to Systematic Design of Analog CMOS Circuits: Using Pre-Computed Lookup Tables. It is also recommended the course of Dr.Hesham on gm/id methodology.
+To further enhance your knowledge and application of the Gm/Id methodology, it is highly recommended to consult the book Systematic Design of Analog CMOS Circuits: Using Pre-Computed Lookup Tables. Additionally, Dr. Hesham's course on the Gm/Id methodology offers valuable insights and practical applications.
