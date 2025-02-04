@@ -22,17 +22,18 @@ The first step is to obtain the lookup tables. In my particular case, I do use C
 Once the simulation has finished we need to go to Plot - Main Plot. On the window that opens we need to:
 ![image](https://github.com/user-attachments/assets/96ce9f13-247a-4ba9-90b7-50e64b82a0d2)
 
-and select the psf file.
+and select the psf file. From there a Brower window will open on the left, we must select the dcOpInfo and export the data in a table. Once in the table, we can export it in any format of our convenience
 
+![image](https://github.com/user-attachments/assets/8697ee4f-a0d8-46c6-bd30-ba1fe03c27fa)
 
-! One may question why the width of the transistor hasn't been considered as a sweep variable, instead a fixed value of 1 um has been used. Since the majority of analog CMOS circuits take advantage of wide transistors, proportionality holds as far as W is concerned. [this article]([https://example.com/article](https://ieeexplore.ieee.org/document/10122491/)
+! One may question why the width of the transistor hasn't been considered as a sweep variable, instead a fixed value of 1 um has been used. Since the majority of analog CMOS circuits take advantage of wide transistors, proportionality holds as far as W is concerned. [this article]([https://ieeexplore.ieee.org/document/10122491/])
 ## Execute the code
 What we need to do is to run the main.py from the terminal with the following command:
 streamlit run main.py
 
-Since the streamlit code has been uploaded in GitHub the website can also be run online, however, the ability to save files is not made for this purpose, and for that reason is recommended to clone the repository and use it locally.
+Since the streamlit code has been uploaded to GitHub the website can also be run online, however, the ability to save files is not made for this purpose, and for that reason is recommended to clone the repository and use it locally.
 
-We will see that on the webpage that opens in locally we can access different pages:
+We will see that on the webpage that opens locally we can access different pages:
 
 ![image](https://github.com/user-attachments/assets/52e2128a-89d9-46e1-9754-4dc56e13af57)
 
