@@ -3,7 +3,7 @@ The app is user-friendly and makes it easy to handle and analyze data with a cle
 Setting up these tables is required just once for a specific technology, the goal of this GitHub is the generation of such tables and the modes of operation of analysis. It is out of the scope of this project to explain how this will be used in a design, books on the Gm/Id methodology should be used. 
 
 ## Table of Contents
-- [How to use it](#how-to-use-it)
+- [Model the transistor](#model-the-transistor)
 - [Execute the code](#execute-the-code)
 - [Import the data and create the look-up tables](#import-the-data-and-create-the-look-up-tables-load-raw-data)
 - [Plot](#plot)
@@ -13,7 +13,7 @@ Setting up these tables is required just once for a specific technology, the goa
 - [Cross Lookup](#cross-lookup)
 - [References and Guidelines](#references-and-guidelines)
 
-## How to use it?
+## Model the transistor
 The first step is to obtain the lookup tables. In my particular case, I do use Cadence Virtuoso for this purpose. We need to sweep four variables VGS, VDS, VSB, and L. After that, we need to save the following outputs gm, gds, cgs, ID, vgs, vov.
 
 <strong style="color:red;">!</strong> The only limitation is that when doing the sweep we need to do it in this order:
