@@ -23,7 +23,7 @@ The first step is to obtain the lookup tables. In my particular case, I do use C
 Once the simulation has finished we need to go to Plot - Main Plot. On the window that opens we need to:
 ![image](https://github.com/user-attachments/assets/96ce9f13-247a-4ba9-90b7-50e64b82a0d2)
 
-and select the psf file. From there a Brower window will open on the left, we must select the dcOpInfo and export the data in a table. Once in the table, we can export it in any format of our convenience
+and select the psf file. From there a Brower window will open on the left, we must select the dcOpInfo and export the data in a table (for the drain current I have set up a prove and the value is inside the M0/D folder). Once in the table, we can export it in any format of our convenience
 
 ![image](https://github.com/user-attachments/assets/8697ee4f-a0d8-46c6-bd30-ba1fe03c27fa)
 ![image](https://github.com/user-attachments/assets/569502a1-aedc-4d90-b84c-609b5a68f3a0)
