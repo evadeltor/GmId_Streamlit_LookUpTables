@@ -63,7 +63,7 @@ A second type of parameter consists of ratios between the parameters presented b
 
 
 ## Create your graph
-
+The goal of this page is to create any graph that the designer requires instead of the limited options that provide the rest of the design. Moreover, what we can do is overlap multiple graphs as I will show 
 ![image](https://github.com/user-attachments/assets/4280c985-d814-4110-8eb2-a711703c20d4)
 
 ## Cross Lookup
