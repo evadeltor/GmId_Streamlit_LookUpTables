@@ -76,7 +76,7 @@ The goal of this page is to enable the creation of any graph that the designer r
 Finally, the third mode is to have a plot between ratios, an example would be GM_ID and JD. In order to have a graph between to ratios we need to perform a sweep first of that ratio with VGS. After that the related points are saved where they cross.
 ![image](https://github.com/user-attachments/assets/ce26cd1a-90ae-4ef5-aea3-d7ac2fd975d6)
 
-![Method3_gmid_streamlit](https://github.com/user-attachments/assets/f4fe2933-0f3a-49bd-93ce-c2de6177ca6f)
+![Method3_gmid_streamlit](https://github.com/user-attachments/assets/55f8aa5c-1071-4c1e-9b2a-aca317d23df1)
 
 ## Other functionalities
 On the sidebar, there are multiple sections. You can select the tables you want to work with. For a proper design, you should include at least both PMOS and NMOS transistors. However, depending on the technology, multiple kinds of transistors may exist (e.g., low noise, low Vt, etc.). Additionally, you can navigate between different pages. If you are visualizing data on a plot, you have the option to save that data to a file and later import it in the "Create Your Graph" page.
