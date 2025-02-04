@@ -52,12 +52,12 @@ After the processing of the data we are now ready to view the data. Let's start 
 ![image](https://github.com/user-attachments/assets/2e6e5770-655c-484d-9e2e-77529ee4e54c)
 
 ## Get value
-As an engineer seeing a graph helps us to visualize the tendency of the relationship between three variables, however, to obtain precise calculations we would need to obtain specific value for an x-y pair. For that reason this section allow the designer to specify the parameters and obtain an output.
+As an engineer seeing a graph helps us to visualize the tendency of the relationship between three variables, however, to obtain precise calculations we would need to obtain specific values for an x-y pair. For that reason this section allows the designer to specify the parameters and obtain an output.
 
 ![image](https://github.com/user-attachments/assets/1fc60eac-5529-4e8d-b0c4-362aa0ba8c4e)
 
 ## Ratio
-
+A second type of parameter consists of ratios between the parameters presented before. Some examples would be the drain current density J_D = ID/W, the intrinsic low-frequency gain of the common-source transistor gm/gds, the transit frequency gm/Cgg, and the transconductance efficiency gm/ID. Here we can also see that since both parameters depend on the width any of these ratios are width-independent.
 ![image](https://github.com/user-attachments/assets/d6e446d8-2b84-4447-9ccf-05e9e1921054)
 ![image](https://github.com/user-attachments/assets/be48e34b-1b2e-42fd-83d5-1c8a05f696b9)
 
