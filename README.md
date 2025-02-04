@@ -1,5 +1,6 @@
 # GmId Streamlit Lookup Tables
-The app is user-friendly and makes it easy to handle and analyze data with a clear and organized interface. Traditional hand calculations use basic transistor models like the quadratic one, but these models don't consider second-order effects. This can cause the results to differ quite a bit from what you expect. It usually takes several tries to get the final result. The Gm/Id methodology aims to simplify the design process by using Lookup Tables (LUTs) instead of MOSFET models. 
+The app is user-friendly and makes it easy to handle and analyze data with a clear and organized interface. Traditional hand calculations use basic transistor models like the quadratic one, but these models don't consider second-order effects. This can cause the results to differ quite a bit from what you expect. It usually takes several tries to get the final result. The Gm/Id methodology aims to simplify the design process by using Lookup Tables (LUTs) instead of MOSFET models. Each of the lookup tables defines a parameter, which is affected by the bias, geometry, and second-order effects that are modeled by the simulator.
+Setting up these tables is required just once for a specific technology, the goal of this GitHub is the generation of such tables and the modes of operation of analysis. It is out of the scope of this project to explain how this will be used in a design, books on the Gm/Id methodology should be used. 
 
 ## Table of Contents
 - [How to use it](#how-to-use-it)
@@ -19,7 +20,13 @@ The first step is to obtain the lookup tables. In my particular case, I do use C
 ![image](https://github.com/user-attachments/assets/65add828-ce04-4ac8-83fa-ee865d4954e4)
 ![image](https://github.com/user-attachments/assets/bb28bef6-44fe-451a-ad3d-12df5f83bfad)
 
+Once the simulation has finished we need to go to Plot - Main Plot. On the window that opens we need to:
+![image](https://github.com/user-attachments/assets/96ce9f13-247a-4ba9-90b7-50e64b82a0d2)
 
+and select the psf file.
+
+
+! One may question why the width of the transistor hasn't been considered as a sweep variable, instead a fixed value of 1 um has been used. Since the majority of analog CMOS circuits take advantage of wide transistors, proportionality holds as far as W is concerned. [this article]([https://example.com/article](https://ieeexplore.ieee.org/document/10122491/)
 ## Execute the code
 What we need to do is to run the main.py from the terminal with the following command:
 streamlit run main.py
@@ -45,16 +52,17 @@ After the processing of the data we are now ready to view the data. Let's start 
 ![image](https://github.com/user-attachments/assets/2e6e5770-655c-484d-9e2e-77529ee4e54c)
 
 ## Get value
-Not always is required to see a graph but to 
+As an engineer seeing a graph helps us to visualize the tendency of the relationship between three variables, however, to obtain precise calculations we would need to obtain specific value for an x-y pair. For that reason this section allow the designer to specify the parameters and obtain an output.
 
 ![image](https://github.com/user-attachments/assets/1fc60eac-5529-4e8d-b0c4-362aa0ba8c4e)
 
 ## Ratio
+
 ![image](https://github.com/user-attachments/assets/d6e446d8-2b84-4447-9ccf-05e9e1921054)
 ![image](https://github.com/user-attachments/assets/be48e34b-1b2e-42fd-83d5-1c8a05f696b9)
 
 
-## Create your own graph
+## Create your graph
 
 ![image](https://github.com/user-attachments/assets/4280c985-d814-4110-8eb2-a711703c20d4)
 
