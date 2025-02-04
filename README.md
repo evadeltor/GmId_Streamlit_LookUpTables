@@ -4,6 +4,8 @@ The app is user-friendly and makes it easy to handle and analyze data with a cle
 # How to use it?
 The first step is to obtain the look-up tables. In my particular case, I do use Cadence Virtuoso for this purpose. We need to sweep four variables VGS, VDS, VSB, and L. After that, we need to save the following outputs gm, gds, cgs, ID, vgs, vov.
 ! The only limitation is that when doing the sweep we need to do it in this order:
+![image](https://github.com/user-attachments/assets/65add828-ce04-4ac8-83fa-ee865d4954e4)
+![image](https://github.com/user-attachments/assets/bb28bef6-44fe-451a-ad3d-12df5f83bfad)
 
 
 # Execute the code
