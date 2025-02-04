@@ -72,6 +72,7 @@ Finally, the third mode is to have a plot between ratios, an example would be GM
 
 ## Other functionalities
 On the sidebar, there are multiple sections. You can select the tables you want to work with. For a proper design, you should include at least both PMOS and NMOS transistors. However, depending on the technology, multiple kinds of transistors may exist (e.g., low noise, low Vt, etc.). Additionally, you can navigate between different pages. If you are visualizing data on a plot, you have the option to save that data to a file and later import it in the "Create Your Graph" page.
+
 ![image](https://github.com/user-attachments/assets/ca46c571-a78c-4a51-a283-2e09a40ff7d1)
 
 
